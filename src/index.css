@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@font-face {
+  /* font-family: 'Apex'; */
+  font-family: 'Redwing';
+  src: url('./assets/fonts/Redwing-Light.otf') format('truetype');
+  src: url('./assets/fonts/Redwing-Medium.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'Redwing';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #ffffff;
+  background-color: #000000 ;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* *Scrollbar width* */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* *Track (background)* */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* *Thumb (the draggable part)* */
+::-webkit-scrollbar-thumb {
+  background-color: #AEFE15;
+}
+
+/* -------------------- */
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+[data-state="open"] {
+  animation: accordion-down 0.25s ease-out;
+}
+
+[data-state="closed"] {
+  animation: accordion-up 0.25s ease-out;
+}

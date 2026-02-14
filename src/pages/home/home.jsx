@@ -74,9 +74,6 @@ const Home = () => {
   const socials = [
     { name: 'Reddit', href: 'https://reddit.com/yourhandle', icon: <FaRedditAlien /> },
     { name: 'telegram', href: 'https://telegram.com/yourhandle', icon: <FaTelegramPlane /> },
-    { name: 'LinkedIn', href: 'https://linkedin.com/in/yourhandle', icon: <FaLinkedinIn /> },
-    { name: 'GitHub', href: 'https://github.com/yourhandle', icon: <FaGithub /> },
-    { name: 'Behance', href: 'https://behance.net/yourhandle', icon: <FaBehance /> },
     { name: 'X', href: 'https://x.com/yourhandle', icon: <FaXTwitter /> },
     { name: 'Whatsapp', href: 'https://wa.me/2126190058', icon: <FaWhatsapp /> },
   ];

@@ -207,7 +207,6 @@ const Home = () => {
         />
       </section>
 
-      <FAQ />
 
       {/* FOLLOW ME SECTION */}
       <section className="py-12 px-6 bg-black border-t border-b border-[#AEFE15] text-white">

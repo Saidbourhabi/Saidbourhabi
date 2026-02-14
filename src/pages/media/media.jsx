@@ -2,30 +2,18 @@ import React, { useState } from "react";
 import { MdClose, MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 
 // Import images
-import gamedaywacass from "../../assets/images/gamedaywacass.jpg";
-import eid from "../../assets/images/eid.jpg";
-import lockerkitP3 from "../../assets/images/lockerkitP3.jpg";
-import lockerkitP4 from "../../assets/images/lockerkitP4.jpg";
-import lockerkitP5 from "../../assets/images/lockerkitP5.jpg";
-import lockerkitP6 from "../../assets/images/lockerkitP6.jpg";
-import wac from "../../assets/images/wac1.jpeg";
-import wac1 from "../../assets/images/wac2.jpeg";
-import wac2 from "../../assets/images/wac3.jpeg";
+
+import sp from "../../assets/images/sassiphotographerlogo.jpg";
+import lk from "../../assets/images/lockerkitlogo.png";
 
 const Media = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const allDesigns = [
-    { id: 1, image: gamedaywacass, headline: "Gameday Graphics" },
-    { id: 2, image: eid, headline: "Team Identity" },
-    { id: 3, image: lockerkitP3, headline: "Sports Campaign" },
-    { id: 4, image: lockerkitP4, headline: "Brand Identity Suite" },
-    { id: 5, image: lockerkitP5, headline: "Logo Variations" },
-    { id: 6, image: lockerkitP6, headline: "Brand Guidelines" },
-    { id: 7, image: wac, headline: "E-Commerce Platform" },
-    { id: 8, image: wac1, headline: "Corporate Website" },
-    { id: 9, image: wac2, headline: "SaaS Dashboard" },
+
+    { id: 1, image: sp, headline: "Sassi Photographer Logo" },
+    { id: 2, image: lk, headline: "locker kit Logo" },
   ];
 
   const handleImageClick = (index) => {

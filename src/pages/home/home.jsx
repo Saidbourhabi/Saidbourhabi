@@ -22,12 +22,9 @@ import { FaBehance, FaLaravel, FaLinkedinIn, FaRedditAlien, FaTelegramPlane, FaW
   import {FaGithub, } from 'react-icons/fa';
 
 // Import design images for preview
-import lockerkitP1 from '../../assets/images/lockerkitP1.jpg';
-import lockerkitP2 from '../../assets/images/lockerkitP2.jpg';
-import lockerkitP3 from '../../assets/images/lockerkitP3.jpg';
-import lockerkitP4 from '../../assets/images/lockerkitP4.jpg';
+import lk from '../../assets/images/lockerkitlogo.png';
+import sp from '../../assets/images/sassiphotographerlogo.jpg';
 import { FaXTwitter } from 'react-icons/fa6';
-import FAQ from '../../components/FAQ';
 
 const Home = () => {
   const logos = [
@@ -65,10 +62,9 @@ const Home = () => {
   ];
 
   const recentWork = [
-    { image: lockerkitP1, title: 'Sports Branding' },
-    { image: lockerkitP2, title: 'Team Identity' },
-    { image: lockerkitP3, title: 'Campaign Design' },
-    { image: lockerkitP4, title: 'Brand Suite' }
+    { image: lk, title: 'Locker Kit Brand Logo' },
+    { image: sp, title: 'Sassi Photographer Brand Logo' },
+
   ];
 
   const socials = [

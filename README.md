@@ -1,7 +1,7 @@
 <h1>Hey! Nice to see you.</h1>
 
 
-<p>Welcome to my page! </br> Called me Happy, Fullstack developer from <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/960px-Flag_of_Morocco.svg.png" width="13"/> <b>Casablanca, Morocco</b>,</p>
+<p>Welcome to my page! </br> Called me Happy, im Fullstack developer from , <b>Casablanca, Morocco</b>, <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/960px-Flag_of_Morocco.svg.png" width="13"/>.</p>
 
 <h3>Things I code with</h3>
 

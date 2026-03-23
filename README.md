@@ -1,8 +1,10 @@
 <h1>Hey! Nice to see you.</h1>
 
 
-<p>Welcome to my page! </br> Called me Happy, Fullstack developer from <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/960px-Flag_of_Morocco.svg.png" width="13"/> <b>Lorient, France</b>, currently living in <img src="https://cdn-icons-png.flaticon.com/512/197/197564.png" width="13"/> <b>Casablanca, Morocco</b>. </p>
+<p>Welcome to my page! </br> Called me Happy, Fullstack developer from <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/960px-Flag_of_Morocco.svg.png" width="13"/> <b>Casablanca, Morocco</b>,</p>
+
 <h3>Things I code with</h3>
+
 <p>
   <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
